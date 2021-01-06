@@ -14,4 +14,19 @@
 
 .card-img-top{
     height: 300px;
+=======
+.pet_img-size {
+    width: 300px;
+}
+
+
+.no-bullet {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.img-pad {
+    padding: 10px;    
+
 }
