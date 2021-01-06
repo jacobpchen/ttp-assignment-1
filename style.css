@@ -1,9 +1,17 @@
 .welcome{
-    height: 80vh;
+    height: 100vh;
     background-color: #F7F9FB;
 }
 
 .gallery{
-    height:80vh;
+    height:100vh;
     background-color: #8FC1E3;
+}
+
+.card-img-width{
+    width: 300px;
+}
+
+.card-img-top{
+    height: 300px;
 }
