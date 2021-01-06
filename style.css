@@ -31,7 +31,6 @@
 
 .img-pad {
     padding: 10px;    
-
 }
 
 .about{
@@ -39,3 +38,11 @@
     background-color: #5085A5;
 }
 
+.jumbotron {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  background: url("https://images.unsplash.com/photo-1609595440415-a8dab77bf080?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80") center center;
+  background-size: cover;
+  margin-top: 5rem;
+}
