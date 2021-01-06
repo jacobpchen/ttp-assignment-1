@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>About</title>
     <link rel="stylesheet" href="bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
@@ -12,54 +12,58 @@
 <body>
     <!-- NAV BAR-->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Adopt-A-Pet</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor03"
-            aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+        <div class="container">
+            <a class="navbar-brand" href="#">Adopt-A-Pet</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor03"
+                aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-        <div class="collapse navbar-collapse" id="navbarColor03">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">About
-                        <span class="sr-only">(current)</span>
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="Pets.html">Pets</a>
-                </li>
-            </ul>
+            <div class="collapse navbar-collapse" id="navbarColor03">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Pets.html">Pets</a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </nav>
 
     <!-- About us Body-->
-    <h1>About Us</h1>
-    <p>
-        At Adopt-A-Pet we believe that when you adopt,
-        you are saving a loving animal by making them part of your family
-        and provind care and shelter as they desparately need it.
-    </p>
 
-    <h3>
-        Below are links to adoption agencies:
-    </h3>
-    <p>
-    <ul>
-        <li>
-            <a href="https://www.petfinder.com/">petfinder</a>
-        </li>
-        <li>
-            <a href="https://www.bestfriends.org">bestfriends</a>
-        </li>
-        <li>
-            <a href="https://www.aspca.org">aspca</a>
-        </li>
-    </ul>
-    </p>
+    <div class="about ">
+        <div class="about container d-flex justify-content-center align-items-center flex-column">
+            <h1 class="text-dark my-3">About Us</h1>
+            <p class="text-dark my-3">
+                At Adopt-A-Pet we believe that when you adopt,
+                you are saving a loving animal by making them part of your family
+                and providing the care and shelter as they desparately need.
+            </p>
 
+            <h3 class="text-dark my-3">
+                Below are links to adoption agencies:
+            </h3>
+
+            <div class="d-flex">
+                <a href="https://www.aspca.org/nyc/aspca-adoption-center/" class="btn btn-light mx-5" target="_blank"
+                    rel="noopener noreferrer">ASPCA</a>
+
+                <a href="https://bestfriends.org/adopt/adopt-our-sanctuary/" class="btn btn-light mx-5" target="_blank"
+                    rel="noopener noreferrer">Best Friends</a>
+
+                <a href="https://www.petfinder.com/dog/" class="btn btn-light mx-5 " target="_blank"
+                    rel="noopener noreferrer">Petfinder</a>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>
