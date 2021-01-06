@@ -10,6 +10,7 @@
 
 .card-img-width{
     width: 300px;
+    object-fit: cover;
 }
 
 .card-img-top{
